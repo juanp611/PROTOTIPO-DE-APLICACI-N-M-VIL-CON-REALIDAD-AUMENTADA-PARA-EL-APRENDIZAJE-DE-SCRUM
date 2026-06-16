@@ -24,8 +24,7 @@ private void Start()
                 layoutGroup = contenedorDeBotones.gameObject.AddComponent<VerticalLayoutGroup>();
             }
 
-            layoutGroup.spacing = 10f;  
-            //layoutGroup.padding = new RectOffset(10, 10, 10, 10);  
+            layoutGroup.spacing = 10f;   
 
             foreach (HU hu in huData.listaHUs)
             {
