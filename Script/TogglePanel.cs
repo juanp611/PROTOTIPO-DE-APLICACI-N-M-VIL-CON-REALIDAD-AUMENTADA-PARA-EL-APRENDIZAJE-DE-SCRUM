@@ -6,9 +6,9 @@ using TMPro;
 
 public class TogglePanel : MonoBehaviour
 {
-    public GameObject panelToToggle;       // Panel que se activará/desactivará
+    public GameObject panelToToggle;       // Panel que se activará/desactivará 
     public Button buttonToHide;            // Botón que se ocultará
-    public TextMeshProUGUI textToHide;     // Texto que se ocultará (usa Text si no estás usando TextMeshPro)
+    public TextMeshProUGUI textToHide;     // Texto que se ocultará
 
     private void Start()
     {
